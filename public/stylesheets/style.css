@@ -1,6 +1,7 @@
 body {
   padding-top: 50px;
   font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  width: 100%
 }
 
 a {
@@ -8,5 +9,15 @@ a {
 }
 
 .header {
-  padding-bottom: 10px ;
+  padding-bottom: 10px;
+}
+
+.googleForm {
+  width:1500px;
+  height: 3500px;
+}
+
+.main {
+  text-align: center;
+  width: 100%;
 }
