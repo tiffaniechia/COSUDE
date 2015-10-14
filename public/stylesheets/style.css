@@ -87,5 +87,40 @@ a {
     background: url(../images/background-mini.jpg) center center no-repeat;
     background-size: cover;
     height: 54em;
+}
+
+.contact-page {
+    background: url(../images/contact-mini.jpg) center center no-repeat;
+    background-size: cover;
+    height: 54em;
+    opacity: 0.9;
+}
+
+.resources-page {
+    background: url(../images/needlework-mini.jpg) center center no-repeat;
+    background-size: cover;
+    height: 54em;
+    opacity: 0.8;
+}
+
+.contact-text-box {
+    width:45%;
+    color: white;
+    margin: 0 auto;
+    font-size: 2em;
+    padding-top: 2em;
+}
+
+.hi-there {
+    font-size: 3em;
+    background-color: hotpink;
+    margin: 1em;
+    font-weight: bolder;
+}
+
+.contact-email {
+    border-bottom: 0.2em solid hotpink;
+    width: 40%;
+    margin: 1.4em auto;
 
 }
