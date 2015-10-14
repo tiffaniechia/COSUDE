@@ -40,6 +40,7 @@ a:hover {
     text-align: left;
     font-weight: normal;
     margin-bottom: -0.2em;
+
 }
 
 .banner-internal-bold {
@@ -83,7 +84,7 @@ a:hover {
 .resources-page {
     background: url(../images/construction-work-carpenter-tools.jpg) center center no-repeat;
     background-size: cover;
-    height: 54em;
+    height: 100em;
     /*opacity: 0.75;*/
     opacity: 0.85;
 }
@@ -107,4 +108,20 @@ a:hover {
     border-bottom: 0.2em solid hotpink;
     width: 40%;
     margin: 1.4em auto;
+}
+
+.resources-container {
+    width:95%;
+    margin: 0 auto;
+    padding: 6em 2em;
+}
+
+.row > div {
+    height:500px;
+}
+
+.thumbnail {
+    height: 100%;
+    border: none;
+    margin-top: 3em;
 }

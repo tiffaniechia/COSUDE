@@ -8,7 +8,6 @@ gulp.task('start', function () {
         script: './bin/www'
         , ext: 'js html ejs css'
         , env: {'NODE_ENV': 'development'}
-        //, ignore: ['test/**/*.js']
     })
         .on('restart', function () {
             console.log('restarted!')
