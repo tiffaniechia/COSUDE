@@ -144,9 +144,22 @@ a:hover {
     text-transform: uppercase;
 }
 
+.caption {
+    height: 51%;
+}
+
 .caption > h3 {
     text-transform: uppercase;
     font-size: 1.3em;
+    height: 20%;
+}
+
+.caption > .caption-description {
+    height: 45%;
+}
+
+.caption > .caption-button {
+    height: 20%;
 }
 
 
