@@ -81,10 +81,11 @@ a:hover {
 }
 
 .resources-page {
-    background: url(../images/needlework-mini.jpg) center center no-repeat;
+    background: url(../images/construction-work-carpenter-tools.jpg) center center no-repeat;
     background-size: cover;
     height: 54em;
-    opacity: 0.75;
+    /*opacity: 0.75;*/
+    opacity: 0.85;
 }
 
 .contact-text-box {
