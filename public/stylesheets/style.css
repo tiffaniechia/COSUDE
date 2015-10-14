@@ -8,6 +8,10 @@ a {
     color: #00B7FF;
 }
 
+a:hover {
+    border-bottom: thick solid hotpink;
+}
+
 .header {
     padding-bottom: 10px;
 }
@@ -68,15 +72,18 @@ a {
 
 .container-fluid {
     background-color: white;
+    height: 4em;
 }
 
 .navbar-right {
     padding-right: 2.5em;
 }
 
-.navbar-header {
-    padding-left: 2em;
-    padding-right: 0.8em;
+.nav-brand {
+    margin-left:1em;
+    margin-right:1em;
+    font-weight: bolder;
+    font-size: 1.3em;
 }
 
 .glyphicon {
@@ -122,5 +129,4 @@ a {
     border-bottom: 0.2em solid hotpink;
     width: 40%;
     margin: 1.4em auto;
-
 }
