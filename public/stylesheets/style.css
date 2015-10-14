@@ -1,11 +1,7 @@
 body {
     padding-top: 50px;
-    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
     width: 100%
-}
-
-a {
-    color: #00B7FF;
 }
 
 a:hover {
@@ -17,8 +13,8 @@ a:hover {
 }
 
 .google-form {
-    width: 1500px;
-    height: 3500px;
+    width:100%;
+    height: 3000px;
 }
 
 .google-form-container {
@@ -36,8 +32,6 @@ a:hover {
     margin: 0 auto;
     padding-top: 1.2em;
     font-size: 7em;
-    font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
-    /*color: #444444;*/
     color: white;
     letter-spacing: -0.02em;
 }
@@ -48,26 +42,9 @@ a:hover {
     margin-bottom: -0.2em;
 }
 
-/*.banner-internal:nth-child(1) {*/
-    /*background: yellow;*/
-    /*opacity: 0.9;*/
-/*}*/
-
-/*.banner-internal:nth-child(2) {*/
-    /*background: aqua;*/
-    /*opacity: 0.9;*/
-/*}*/
-
-/*.banner-internal:nth-child(3) {*/
-    /*background: hotpink;*/
-    /*opacity: 0.9;*/
-/*}*/
-
 .banner-internal-bold {
     font-weight: bolder;
     background-color: hotpink;
-    /*background-color: #4F4D3F;*/
-    /*opacity: 0.9;*/
 }
 
 .container-fluid {
@@ -107,7 +84,7 @@ a:hover {
     background: url(../images/needlework-mini.jpg) center center no-repeat;
     background-size: cover;
     height: 54em;
-    opacity: 0.8;
+    opacity: 0.75;
 }
 
 .contact-text-box {
