@@ -12,12 +12,46 @@ a {
   padding-bottom: 10px;
 }
 
-.googleForm {
+.google-form {
   width:1500px;
   height: 3500px;
+}
+
+.google-form-container {
+  background:url(../images/spin.gif) center center no-repeat;
+  height: 24em;
 }
 
 .main {
   text-align: center;
   width: 100%;
+}
+
+.banner {
+  width: 40%;
+  margin: 0 auto;
+  padding-top: 1em;
+  font-size: 7em;
+}
+
+.banner-internal {
+  text-align: left;
+  font-weight: lighter;
+  margin-bottom: -0.2em;
+}
+
+.banner-internal:nth-child(1) {
+  background: yellow;
+}
+
+.banner-internal:nth-child(2) {
+  background: aqua;
+}
+
+.banner-internal:nth-child(3) {
+  background: hotpink;
+}
+
+.banner-internal-bold {
+  font-weight: normal;
 }
