@@ -55,3 +55,20 @@ a {
 .banner-internal-bold {
   font-weight: normal;
 }
+
+.container-fluid {
+  background-color: white;
+}
+
+.navbar-right {
+  padding-right: 2.5em;
+}
+
+.navbar-header {
+  padding-left: 2em;
+  padding-right: 0.8em;
+}
+
+.glyphicon {
+  padding-right: 0.5em;
+}
