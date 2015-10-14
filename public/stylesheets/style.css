@@ -1,74 +1,91 @@
 body {
-  padding-top: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
-  width: 100%
+    padding-top: 50px;
+    font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+    width: 100%
 }
 
 a {
-  color: #00B7FF;
+    color: #00B7FF;
 }
 
 .header {
-  padding-bottom: 10px;
+    padding-bottom: 10px;
 }
 
 .google-form {
-  width:1500px;
-  height: 3500px;
+    width: 1500px;
+    height: 3500px;
 }
 
 .google-form-container {
-  background:url(../images/spin.gif) center center no-repeat;
-  height: 24em;
+    background: url(../images/spin.gif) center center no-repeat;
+    height: 24em;
 }
 
 .main {
-  text-align: center;
-  width: 100%;
+    text-align: center;
+    width: 100%;
 }
 
 .banner {
-  width: 40%;
-  margin: 0 auto;
-  padding-top: 1em;
-  font-size: 7em;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 1.2em;
+    font-size: 7em;
+    font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
+    /*color: #444444;*/
+    color: white;
+    letter-spacing: -0.02em;
 }
 
 .banner-internal {
-  text-align: left;
-  font-weight: lighter;
-  margin-bottom: -0.2em;
+    text-align: left;
+    font-weight: normal;
+    margin-bottom: -0.2em;
 }
 
-.banner-internal:nth-child(1) {
-  background: yellow;
-}
+/*.banner-internal:nth-child(1) {*/
+    /*background: yellow;*/
+    /*opacity: 0.9;*/
+/*}*/
 
-.banner-internal:nth-child(2) {
-  background: aqua;
-}
+/*.banner-internal:nth-child(2) {*/
+    /*background: aqua;*/
+    /*opacity: 0.9;*/
+/*}*/
 
-.banner-internal:nth-child(3) {
-  background: hotpink;
-}
+/*.banner-internal:nth-child(3) {*/
+    /*background: hotpink;*/
+    /*opacity: 0.9;*/
+/*}*/
 
 .banner-internal-bold {
-  font-weight: normal;
+    font-weight: bolder;
+    background-color: hotpink;
+    /*background-color: #4F4D3F;*/
+    /*opacity: 0.9;*/
 }
 
 .container-fluid {
-  background-color: white;
+    background-color: white;
 }
 
 .navbar-right {
-  padding-right: 2.5em;
+    padding-right: 2.5em;
 }
 
 .navbar-header {
-  padding-left: 2em;
-  padding-right: 0.8em;
+    padding-left: 2em;
+    padding-right: 0.8em;
 }
 
 .glyphicon {
-  padding-right: 0.5em;
+    padding-right: 0.5em;
+}
+
+.home-page {
+    background: url(../images/background-mini.jpg) center center no-repeat;
+    background-size: cover;
+    height: 54em;
+
 }
