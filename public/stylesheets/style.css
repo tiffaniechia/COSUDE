@@ -113,11 +113,12 @@ a:hover {
 .resources-container {
     width:95%;
     margin: 0 auto;
-    padding: 6em 2em;
+    padding: 6em 0;
 }
 
 .row > div {
     height:500px;
+    margin-bottom: 1.5em;
 }
 
 .thumbnail {
@@ -125,3 +126,10 @@ a:hover {
     border: none;
     margin-top: 3em;
 }
+
+.image-thumbnail {
+    height:49%;
+    overflow: hidden;
+}
+
+
