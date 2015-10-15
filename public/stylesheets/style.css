@@ -83,11 +83,10 @@ a:hover {
 }
 
 .resources-page {
-    background: url(../images/construction-work-carpenter-tools.jpg) center center no-repeat;
+    background: url(../images/construction-work-carpenter-tools.jpg) center center repeat;
     background-size: cover;
-    height: 100em;
-    /*opacity: 0.75;*/
-    opacity: 0.85;
+    height: 150em;
+    opacity: 0.9;
 }
 
 .contact-text-box {
@@ -127,6 +126,10 @@ a:hover {
     height: 100%;
     padding:0;
     border-radius: 0;
+}
+
+.row > .col-md-6 {
+    height: 600px;
 }
 
 .image-thumbnail {
