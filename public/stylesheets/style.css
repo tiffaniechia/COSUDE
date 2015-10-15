@@ -169,3 +169,27 @@ a.btn {
     border-radius: 0;
     color: grey;
 }
+
+
+.why-page-header {
+    background: url(../images/pexels-photo.jpeg) center center no-repeat;
+    background-size: cover;
+    height: 34em;
+    opacity: 0.9;
+}
+
+.why-page-header-title {
+    color: white;
+    font-weight: bold;
+    margin-top: 1em;
+    background-color: hotpink;
+    width: 10em;
+    margin-left: -10em;
+}
+
+.questionnaire-page-header {
+    background: url(../images/border.jpg) center center no-repeat;
+    background-size: cover;
+    height: 2em;
+    opacity: 0.9;
+}
