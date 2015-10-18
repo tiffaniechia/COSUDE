@@ -49,6 +49,14 @@ a:hover {
     background-color: hotpink;
 }
 
+@media (max-width: 768px) {
+    .banner {
+        width: 95%;
+        font-size: 5em;
+        text-align: left;
+    }
+}
+
 .navbar {
     height: 4em;
 }
