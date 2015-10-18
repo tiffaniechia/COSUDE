@@ -28,10 +28,11 @@ a:hover {
 }
 
 .banner {
+    height: 100%;
     width: 38%;
     margin: 0 auto;
     padding-top: 1.5em;
-    font-size: 7em;
+    font-size: 9rem;
     color: white;
     letter-spacing: -0.02em;
     text-transform: uppercase;
@@ -49,11 +50,30 @@ a:hover {
     background-color: hotpink;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1000px) {
     .banner {
-        width: 95%;
-        font-size: 5em;
-        text-align: left;
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 895px) {
+    .banner {
+        width: 50%;
+        font-size: 8rem;
+    }
+}
+
+@media (max-width: 690px) {
+    .banner {
+        width:90%;
+        font-size: 6rem;
+    }
+}
+
+@media (max-width: 450px) {
+    .banner {
+        width:90%;
+        font-size: 6rem;
     }
 }
 
