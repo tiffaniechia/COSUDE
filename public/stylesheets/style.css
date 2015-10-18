@@ -86,8 +86,7 @@ a:hover {
     padding-left: 4em;
 }
 
-#bs-example-navbar-collapse-1 a:hover {
-    color: hotpink;
+.in a:hover {
     border: none;
 }
 
