@@ -39,18 +39,24 @@ a:hover {
 
 .banner-internal {
     text-align: left;
-    font-weight: normal;
+    font-weight: lighter;
     margin-bottom: -0.2em;
 
 }
 
 .banner-internal-bold {
-    font-weight: bolder;
+    font-weight: bold;
     background-color: hotpink;
 }
 
 .container-fluid {
     background-color: white;
+    height: 4em;
+    font-size: x-small;
+    text-transform: uppercase;
+}
+
+.navbar {
     height: 4em;
 }
 
