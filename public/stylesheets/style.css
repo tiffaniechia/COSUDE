@@ -86,6 +86,10 @@ a:hover {
     padding-left: 4em;
 }
 
+.collapsing a:hover{
+    border: none;
+}
+
 .in a:hover {
     border: none;
 }
