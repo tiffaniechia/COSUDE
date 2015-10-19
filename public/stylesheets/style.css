@@ -190,6 +190,7 @@ a:hover {
     width:95%;
     margin: 0 auto;
     padding: 5em 0;
+    height:100%;
 }
 
 .row > div {
@@ -204,7 +205,7 @@ a:hover {
 }
 
 .row > .col-md-6 {
-    height: 600px;
+    height: 560px;
 }
 
 .col-md-6 .caption .caption-description {
@@ -212,7 +213,7 @@ a:hover {
 }
 
 .image-thumbnail {
-    height:45%;
+    height:43%;
     overflow: hidden;
 }
 
@@ -227,16 +228,18 @@ a:hover {
 }
 
 .caption {
-    height: 51%;
+    height: 40%;
 }
 
 .caption > h3 {
     text-transform: uppercase;
-    font-size: 1.3em;
-    height: 20%;
+    font-size: 1.1em;
+    margin-bottom: 2em;
 }
 
 .caption > .caption-description {
+    padding-left: 0.5em;
+    padding-right: 0.5em;
     height: 45%;
 }
 
@@ -244,16 +247,65 @@ a:hover {
     height: 20%;
 }
 
-@media (max-width: 600px) {
+.resources-button {
+    padding: 1em;
+    text-decoration: none;
+}
+
+@media (max-width: 1300px) {
+    .row > .col-md-6 {
+        height: 530px;
+    }
+}
+
+@media (max-width: 1200px) {
     .row > .col-md-6 {
         height: 500px;
     }
-
-    .col-md-6 .caption .caption-description {
-        height: 20%;
-    }
-
 }
+
+@media (max-width: 1000px) {
+    .row > .col-md-6 {
+        height: 480px;
+    }
+}
+
+@media (max-width: 900px) {
+    .row > .col-md-6 {
+        height: 450px;
+    }
+}
+
+@media (max-width: 800px) {
+    .resources-page {
+        height: 270em;
+    }
+    .row > .col-md-6 {
+        height: 450px;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .row > .col-md-6 {
+        height: 600px;
+    }
+}
+@media (max-width: 700px) {
+
+    .row > .col-md-6 {
+        height: 580px;
+    }
+}
+
+
+@media (max-width: 600px) {
+
+    .row > .col-md-6 {
+        height: 500px;
+    }
+}
+
 
 
 a.btn {
