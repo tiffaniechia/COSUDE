@@ -65,16 +65,27 @@ a:hover {
 
 @media (max-width: 690px) {
     .banner {
-        width:90%;
+        width: 90%;
         font-size: 6rem;
     }
 }
 
 @media (max-width: 450px) {
     .banner {
-        width:90%;
+        width: 90%;
         font-size: 6rem;
     }
+}
+
+.go-to-questionnaire {
+    height: 40em;
+    background-color: hotpink;
+}
+
+.go-to-why {
+    background: url(../images/city-man-water-roof.jpg) center center no-repeat;
+    background-size: cover;
+    height: 50em;
 }
 
 .navbar {
@@ -89,8 +100,8 @@ a:hover {
 }
 
 .navbar-header {
-    padding: 0 2em ;
-    height:100%;
+    padding: 0 2em;
+    height: 100%;
 }
 
 .navbar-brand:hover {
@@ -101,7 +112,7 @@ a:hover {
     padding-right: 2.5em;
 }
 
-.navbar >.container-fluid .navbar-brand {
+.navbar > .container-fluid .navbar-brand {
     font-weight: bolder;
     font-size: 1.3em;
 }
@@ -114,7 +125,7 @@ a:hover {
     padding-left: 4em;
 }
 
-.collapsing a:hover{
+.collapsing a:hover {
     border: none;
 }
 
@@ -143,7 +154,7 @@ a:hover {
 }
 
 .contact-text-box {
-    width:50%;
+    width: 50%;
     color: white;
     margin: 0 auto;
     font-size: 2em;
@@ -157,7 +168,7 @@ a:hover {
     margin-bottom: 1em;
     font-weight: bolder;
     text-transform: uppercase;
-    width:100%;
+    width: 100%;
 }
 
 .contact-email {
@@ -165,7 +176,6 @@ a:hover {
     width: 40%;
     margin: 1.4em auto;
 }
-
 
 @media (max-width: 760px) {
     .hi-there {
@@ -181,30 +191,30 @@ a:hover {
 
     .contact-email {
         background-color: hotpink;
-        width:100%;
+        width: 100%;
         margin: 2em auto;
     }
 }
 
 .resources-container {
-    width:95%;
+    width: 95%;
     margin: 0 auto;
     padding: 5em 0;
-    height:100%;
+    height: 100%;
 }
 
-.row > div {
-    height:500px;
+.resources-container .row > div {
+    height: 500px;
     margin-bottom: 6em;
 }
 
-.row .thumbnail {
+.resources-container .row .thumbnail {
     height: 100%;
-    padding:0;
+    padding: 0;
     border-radius: 0;
 }
 
-.row > .col-md-6 {
+.resources-container .row > .col-md-6 {
     height: 560px;
 }
 
@@ -213,7 +223,7 @@ a:hover {
 }
 
 .image-thumbnail {
-    height:43%;
+    height: 43%;
     overflow: hidden;
 }
 
@@ -253,25 +263,25 @@ a:hover {
 }
 
 @media (max-width: 1300px) {
-    .row > .col-md-6 {
+    .resources-container .row > .col-md-6 {
         height: 530px;
     }
 }
 
 @media (max-width: 1200px) {
-    .row > .col-md-6 {
+    .resources-container .row > .col-md-6 {
         height: 500px;
     }
 }
 
 @media (max-width: 1000px) {
-    .row > .col-md-6 {
+    .resources-container .row > .col-md-6 {
         height: 480px;
     }
 }
 
 @media (max-width: 900px) {
-    .row > .col-md-6 {
+    .resources-container .row > .col-md-6 {
         height: 450px;
     }
 }
@@ -280,44 +290,42 @@ a:hover {
     .resources-page {
         height: 270em;
     }
-    .row > .col-md-6 {
+
+    .resources-container .row > .col-md-6 {
         height: 450px;
     }
 }
 
 @media (max-width: 767px) {
 
-    .row > .col-md-6 {
+    .resources-container .row > .col-md-6 {
         height: 600px;
     }
 }
+
 @media (max-width: 700px) {
 
-    .row > .col-md-6 {
+    .resources-container .row > .col-md-6 {
         height: 580px;
     }
 }
 
-
 @media (max-width: 600px) {
 
-    .row > .col-md-6 {
+    .resources-container .row > .col-md-6 {
         height: 500px;
     }
 }
-
-
 
 a.btn {
     border-radius: 0;
     color: grey;
 }
 
-
 .why-page-header {
     background: url(../images/pexels-photo.jpeg) center center no-repeat;
     background-size: cover;
-    height: 34em;
+    height: 30em;
     opacity: 0.9;
 }
 
@@ -335,4 +343,134 @@ a.btn {
     background-size: cover;
     height: 2em;
     opacity: 0.9;
+}
+
+.sub-reason-one {
+    background: url(../images/crossing-crossroad-businessman-fashion-large.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.sub-reason-two {
+    background: url(../images/hand-dust-flour-chalk.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.sub-reason-three {
+    background: url(../images/lights-street-car-vehicle.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.sub-reason-four {
+    background-color: hotpink;
+}
+
+.col-sm-7 {
+    float: left;
+}
+
+.col-xs-6 {
+    height: 30em;
+    padding: 1.2em 4em;
+    color: #ffffff;
+}
+
+.col-xs-12 {
+    height: 60em;
+    background: url(../images/fashion-clothes-hanger-clothes-rack-clothing.jpeg) center center no-repeat;
+    background-size: cover;
+}
+
+.col-xs-12 > .jumbotron {
+    background-color: transparent;
+}
+
+.jumbotron {
+    height: 100%;
+    padding: 20em 0;
+    background-color: transparent;
+    /*background:none;*/
+}
+
+.jumbotron > .container {
+    width: 70%;
+    color: #ffffff;
+}
+
+.jumbotron .container > h1 {
+    font-size: 4em;
+    font-weight: bolder;
+}
+
+.jumbotron .container p {
+    font-size: 1.2em;
+    font-weight: normal;
+}
+
+.reasons-container > .row {
+    text-align: left;
+}
+
+.reasons-container {
+    height: 50em;
+}
+
+.sub-container h2 {
+    font-size: 2.5em;
+    padding: 0 4em 0 0;
+    font-weight: bolder;
+}
+
+.sub-container p {
+    font-weight: normal;
+}
+
+@media (max-width: 1200px) {
+
+    .col-xs-6 {
+        height: 36em;
+    }
+
+    .col-xs-12 {
+        height: 72em;
+    }
+}
+
+@media (max-width: 1000px) {
+
+    .col-xs-6 {
+        height: 43em;
+    }
+
+    .col-xs-12 {
+        height: 86em;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-xs-12 {
+        height: 50em;
+    }
+}
+
+@media (max-width: 767px) {
+    .col-xs-12 {
+        height: 50em;
+    }
+}
+
+@media (max-width: 500px) {
+    .col-xs-12 {
+        height: 60em;
+    }
+}
+
+@media (max-width: 450px) {
+
+    .col-xs-6 {
+        height: 50em;
+    }
+
+    .col-xs-12 {
+        height: 75em;
+    }
 }
