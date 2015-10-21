@@ -369,13 +369,13 @@ a.btn {
 }
 
 .col-xs-6 {
-    height: 30em;
+    height: 40em;
     padding: 1.2em 4em;
     color: #ffffff;
 }
 
 .col-xs-12 {
-    height: 60em;
+    height: 80em;
     background: url(../images/fashion-clothes-hanger-clothes-rack-clothing.jpeg) center center no-repeat;
     background-size: cover;
 }
@@ -427,22 +427,22 @@ a.btn {
 @media (max-width: 1200px) {
 
     .col-xs-6 {
-        height: 36em;
+        height: 46em;
     }
 
     .col-xs-12 {
-        height: 72em;
+        height: 92em;
     }
 }
 
 @media (max-width: 1000px) {
 
     .col-xs-6 {
-        height: 43em;
+        height: 53em;
     }
 
     .col-xs-12 {
-        height: 86em;
+        height: 106em;
     }
 }
 
