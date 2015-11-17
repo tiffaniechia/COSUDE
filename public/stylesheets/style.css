@@ -31,7 +31,7 @@ a:hover {
     height: 100%;
     width: 38%;
     margin: 0 auto;
-    padding-top: 1.5em;
+    padding-top: 1.3em;
     font-size: 9rem;
     color: white;
     letter-spacing: -0.02em;
@@ -75,6 +75,24 @@ a:hover {
         width: 90%;
         font-size: 6rem;
     }
+}
+
+.circle-separator {
+    width: 10em;
+    height: 10em;
+    margin: -4em auto 0 auto;
+    background-color: white;
+    border-radius: 10em;
+    padding: 2em;
+}
+
+.triangle {
+    height: 0;
+    width: 0;
+    border-top: 20px solid hotpink;
+    border-left: 20px solid transparent;
+    border-right: 20px solid transparent;
+    margin: 0 auto;
 }
 
 .go-to-questionnaire {
@@ -136,7 +154,7 @@ a:hover {
 .home-page {
     background: url(../images/background-mini.jpg) center center no-repeat;
     background-size: cover;
-    height: 54em;
+    height: 51em;
 }
 
 .contact-page {
@@ -159,6 +177,30 @@ a:hover {
     margin: 0 auto;
     font-size: 2em;
     padding-top: 2em;
+}
+
+.story-container {
+    color: #444444;
+}
+
+.story-container .jumbotron {
+    background-color: white;
+    margin-top: -4em;
+}
+
+.story-container .jumbotron h1 {
+    font-size: 5em;
+    padding-bottom: 0.5em;
+    font-weight: bolder;
+
+}
+
+.story-container .jumbotron p {
+    font-size: 1.2em;
+    padding-left: 15% ;
+    padding-right: 15% ;
+    padding-top: 0.2em;
+    text-align: justify;
 }
 
 .hi-there {
@@ -388,12 +430,11 @@ a.btn {
     height: 100%;
     padding: 20em 0;
     background-color: transparent;
-    /*background:none;*/
 }
 
 .jumbotron > .container {
     width: 70%;
-    color: #ffffff;
+    color: white;
 }
 
 .jumbotron .container > h1 {
