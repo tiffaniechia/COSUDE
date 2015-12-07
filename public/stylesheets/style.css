@@ -1,7 +1,12 @@
+html {
+    height: 100%;
+}
+
 body {
     padding-top: 50px;
     font-family: "Helvetica Neue", "HelveticaNeue-Light", "Helvetica Neue", Calibri, Helvetica, Arial;
-    width: 100%
+    width: 100%;
+    height: 100%;
 }
 
 a:hover {
@@ -19,19 +24,19 @@ a:hover {
 
 .google-form-container {
     background: url(../images/spin.gif) center center no-repeat;
-    height: 24em;
 }
 
 .main {
     text-align: center;
     width: 100%;
+    height: 100%;
 }
 
 .banner {
     height: 100%;
     width: 38%;
     margin: 0 auto;
-    padding-top: 1.3em;
+    padding-top: 1.5em;
     font-size: 9rem;
     color: white;
     letter-spacing: -0.02em;
@@ -42,7 +47,6 @@ a:hover {
     text-align: left;
     font-weight: lighter;
     margin-bottom: -0.2em;
-
 }
 
 .banner-internal-bold {
@@ -95,15 +99,26 @@ a:hover {
     margin: 0 auto;
 }
 
-.go-to-questionnaire {
-    height: 40em;
+.btn-default {
+    background-color: hotpink;
+    border: none;
+}
+
+.btn-default:hover {
     background-color: hotpink;
 }
 
-.go-to-why {
-    background: url(../images/city-man-water-roof.jpg) center center no-repeat;
-    background-size: cover;
-    height: 50em;
+.action-button {
+    margin-top: 2.5em;
+}
+
+.action-button a{
+    color: white;
+}
+
+.action-button > a:hover {
+    border-bottom: transparent;
+    text-decoration: none;
 }
 
 .navbar {
@@ -147,6 +162,10 @@ a:hover {
     border: none;
 }
 
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
 .in a:hover {
     border: none;
 }
@@ -154,20 +173,17 @@ a:hover {
 .home-page {
     background: url(../images/background-mini.jpg) center center no-repeat;
     background-size: cover;
-    height: 51em;
 }
 
 .contact-page {
     background: url(../images/contact-mini.jpg) center center no-repeat;
     background-size: cover;
-    height: 54em;
     opacity: 0.9;
 }
 
 .resources-page {
-    background: url(../images/construction-work-carpenter-tools.jpg) center center repeat;
-    background-size: cover;
-    height: 150em;
+    background-color: #eeeeee;
+    height: 140em;
     opacity: 0.9;
 }
 
@@ -192,7 +208,6 @@ a:hover {
     font-size: 5em;
     padding-bottom: 0.5em;
     font-weight: bolder;
-
 }
 
 .story-container .jumbotron p {
@@ -214,27 +229,12 @@ a:hover {
 }
 
 .contact-email {
-    border-bottom: 0.2em solid hotpink;
-    width: 40%;
     margin: 1.4em auto;
 }
 
 @media (max-width: 760px) {
-    .hi-there {
-        font-size: 1.5em;
-        width: 100%;
-        margin: 3em auto;
-    }
-
     .contact-text-box {
         font-size: 1em;
-        margin: 0 auto;
-    }
-
-    .contact-email {
-        background-color: hotpink;
-        width: 100%;
-        margin: 2em auto;
     }
 }
 
@@ -267,16 +267,6 @@ a:hover {
 .image-thumbnail {
     height: 43%;
     overflow: hidden;
-}
-
-.resource-type {
-    background-color: hotpink;
-    color: white;
-    font-weight: bolder;
-    font-size: 1.3em;
-    height: 1.5em;
-    margin-bottom: 0.5em;
-    text-transform: uppercase;
 }
 
 .caption {
@@ -339,21 +329,18 @@ a:hover {
 }
 
 @media (max-width: 767px) {
-
     .resources-container .row > .col-md-6 {
         height: 600px;
     }
 }
 
 @media (max-width: 700px) {
-
     .resources-container .row > .col-md-6 {
         height: 580px;
     }
 }
 
 @media (max-width: 600px) {
-
     .resources-container .row > .col-md-6 {
         height: 500px;
     }
@@ -387,25 +374,6 @@ a.btn {
     opacity: 0.9;
 }
 
-.sub-reason-one {
-    background: url(../images/crossing-crossroad-businessman-fashion-large.jpg) center center no-repeat;
-    background-size: cover;
-}
-
-.sub-reason-two {
-    background: url(../images/hand-dust-flour-chalk.jpg) center center no-repeat;
-    background-size: cover;
-}
-
-.sub-reason-three {
-    background: url(../images/lights-street-car-vehicle.jpg) center center no-repeat;
-    background-size: cover;
-}
-
-.sub-reason-four {
-    background-color: hotpink;
-}
-
 .col-sm-7 {
     float: left;
 }
@@ -422,13 +390,31 @@ a.btn {
     background-size: cover;
 }
 
-.col-xs-12 > .jumbotron {
-    background-color: transparent;
+.sub-reason-one {
+    background: url(../images/crossing-crossroad-businessman-fashion-large.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.sub-reason-two {
+    background: url(../images/hand-dust-flour-chalk.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.sub-reason-three {
+    background: url(../images/lights-street-car-vehicle.jpg) center center no-repeat;
+    background-size: cover;
+    padding: 0;
+}
+
+.sub-reason-four {
+    background-color: hotpink;
+    padding: 0;
 }
 
 .jumbotron {
     height: 100%;
-    padding: 20em 0;
     background-color: transparent;
 }
 
@@ -455,6 +441,24 @@ a.btn {
     height: 50em;
 }
 
+.sub-container {
+    background-color: rgba(0,0,0,0.3);
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+}
+
+.sub-container-pink {
+    height: 100%;
+    width: 100%;
+    padding: 20px;
+    color: white;
+}
+
+.sub-container-pink a:hover {
+    background-color: green;
+}
+
 .sub-container h2 {
     font-size: 2.5em;
     padding: 0 4em 0 0;
@@ -466,7 +470,6 @@ a.btn {
 }
 
 @media (max-width: 1200px) {
-
     .col-xs-6 {
         height: 46em;
     }
@@ -477,7 +480,6 @@ a.btn {
 }
 
 @media (max-width: 1000px) {
-
     .col-xs-6 {
         height: 53em;
     }
@@ -506,7 +508,6 @@ a.btn {
 }
 
 @media (max-width: 450px) {
-
     .col-xs-6 {
         height: 50em;
     }
