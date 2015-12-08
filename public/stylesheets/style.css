@@ -58,11 +58,14 @@ a:hover {
 
 .action-button a{
     color: white;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
 }
 
 .action-button > a:hover {
     border-bottom: transparent;
     text-decoration: none;
+    opacity: 0.8;
 }
 
 .navbar {
@@ -117,29 +120,6 @@ a:hover {
 .home-page {
     background: url(../images/background-mini.jpg) center center no-repeat;
     background-size: cover;
-}
-
-.story-container {
-    color: #444444;
-}
-
-.story-container .jumbotron {
-    background-color: white;
-    margin-top: -4em;
-}
-
-.story-container .jumbotron h1 {
-    font-size: 5em;
-    padding-bottom: 0.5em;
-    font-weight: bolder;
-}
-
-.story-container .jumbotron p {
-    font-size: 1.2em;
-    padding-left: 15% ;
-    padding-right: 15% ;
-    padding-top: 0.2em;
-    text-align: justify;
 }
 
 a.btn {
