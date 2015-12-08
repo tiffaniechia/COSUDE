@@ -1,13 +1,10 @@
 <% include ../partials/staticDOMTop.ejs %>
 <div class="main contact-page">
-    <div class="contact-text-box">
-        <span class="contact-text">
-           <div class="hi-there">Hello!</div>
-            Perhaps you have a lot of questions, or maybe you want to be part of the project.
-            Just leave drop an email and it'll all be sorted!
-        </span>
-        <div class="contact-email">
-            <%= email %>
+    <div class="contact-text-container">
+        <div class="jumbotron">
+            <h1>Hello</h1>
+            <p>Perhaps you have a lot of questions, or maybe you want to be part of the project. Just send an email and it'll all be sorted!</p>
+            <p class="contact-email"><%= email %></p>
         </div>
     </div>
 </div>

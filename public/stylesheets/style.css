@@ -17,69 +17,12 @@ a:hover {
     padding-bottom: 10px;
 }
 
-.google-form {
-    width:100%;
-    height: 54em;
-}
-
-.google-form-container {
-    background: url(../images/spin.gif) center center no-repeat;
-}
-
 .main {
     text-align: center;
     width: 100%;
     height: 100%;
 }
 
-.banner {
-    height: 100%;
-    width: 38%;
-    margin: 0 auto;
-    padding-top: 1.5em;
-    font-size: 9rem;
-    color: white;
-    letter-spacing: -0.02em;
-    text-transform: uppercase;
-}
-
-.banner-internal {
-    text-align: left;
-    font-weight: lighter;
-    margin-bottom: -0.2em;
-}
-
-.banner-internal-bold {
-    font-weight: bold;
-    background-color: hotpink;
-}
-
-@media (max-width: 1000px) {
-    .banner {
-        font-size: 8rem;
-    }
-}
-
-@media (max-width: 895px) {
-    .banner {
-        width: 50%;
-        font-size: 8rem;
-    }
-}
-
-@media (max-width: 690px) {
-    .banner {
-        width: 90%;
-        font-size: 6rem;
-    }
-}
-
-@media (max-width: 450px) {
-    .banner {
-        width: 90%;
-        font-size: 6rem;
-    }
-}
 
 .circle-separator {
     width: 10em;
@@ -110,6 +53,7 @@ a:hover {
 
 .action-button {
     margin-top: 2.5em;
+    font-weight: lighter;
 }
 
 .action-button a{
@@ -175,26 +119,6 @@ a:hover {
     background-size: cover;
 }
 
-.contact-page {
-    background: url(../images/contact-mini.jpg) center center no-repeat;
-    background-size: cover;
-    opacity: 0.9;
-}
-
-.resources-page {
-    background-color: #eeeeee;
-    height: 140em;
-    opacity: 0.9;
-}
-
-.contact-text-box {
-    width: 50%;
-    color: white;
-    margin: 0 auto;
-    font-size: 2em;
-    padding-top: 2em;
-}
-
 .story-container {
     color: #444444;
 }
@@ -218,160 +142,9 @@ a:hover {
     text-align: justify;
 }
 
-.hi-there {
-    font-size: 3em;
-    background-color: hotpink;
-    margin-top: 1em;
-    margin-bottom: 1em;
-    font-weight: bolder;
-    text-transform: uppercase;
-    width: 100%;
-}
-
-.contact-email {
-    margin: 1.4em auto;
-}
-
-@media (max-width: 760px) {
-    .contact-text-box {
-        font-size: 1em;
-    }
-}
-
-.resources-container {
-    width: 95%;
-    margin: 0 auto;
-    padding: 5em 0;
-    height: 100%;
-}
-
-.resources-container .row > div {
-    height: 500px;
-    margin-bottom: 6em;
-}
-
-.resources-container .row .thumbnail {
-    height: 100%;
-    padding: 0;
-    border-radius: 0;
-}
-
-.resources-container .row > .col-md-6 {
-    height: 560px;
-}
-
-.col-md-6 .caption .caption-description {
-    height: 20%;
-}
-
-.image-thumbnail {
-    height: 43%;
-    overflow: hidden;
-}
-
-.caption {
-    height: 40%;
-}
-
-.caption > h3 {
-    text-transform: uppercase;
-    font-size: 1.1em;
-    margin-bottom: 2em;
-}
-
-.caption > .caption-description {
-    padding-left: 0.5em;
-    padding-right: 0.5em;
-    height: 45%;
-}
-
-.caption > .caption-button {
-    height: 20%;
-}
-
-.resources-button {
-    padding: 1em;
-    text-decoration: none;
-}
-
-@media (max-width: 1300px) {
-    .resources-container .row > .col-md-6 {
-        height: 530px;
-    }
-}
-
-@media (max-width: 1200px) {
-    .resources-container .row > .col-md-6 {
-        height: 500px;
-    }
-}
-
-@media (max-width: 1000px) {
-    .resources-container .row > .col-md-6 {
-        height: 480px;
-    }
-}
-
-@media (max-width: 900px) {
-    .resources-container .row > .col-md-6 {
-        height: 450px;
-    }
-}
-
-@media (max-width: 800px) {
-    .resources-page {
-        height: 270em;
-    }
-
-    .resources-container .row > .col-md-6 {
-        height: 450px;
-    }
-}
-
-@media (max-width: 767px) {
-    .resources-container .row > .col-md-6 {
-        height: 600px;
-    }
-}
-
-@media (max-width: 700px) {
-    .resources-container .row > .col-md-6 {
-        height: 580px;
-    }
-}
-
-@media (max-width: 600px) {
-    .resources-container .row > .col-md-6 {
-        height: 500px;
-    }
-}
-
 a.btn {
     border-radius: 0;
     color: grey;
-}
-
-.why-page-header {
-    background: url(../images/pexels-photo.jpeg) center center no-repeat;
-    background-size: cover;
-    height: 30em;
-    opacity: 0.9;
-}
-
-.why-page-header-title {
-    color: white;
-    font-weight: bold;
-    margin-top: 1em;
-    background-color: hotpink;
-    width: 10em;
-    margin-left: -10em;
-}
-
-.questionnaire-page-header {
-    background: url(../images/border.jpg) center center no-repeat;
-    background-size: cover;
-    height: 2em;
-    opacity: 0.9;
 }
 
 .col-sm-7 {

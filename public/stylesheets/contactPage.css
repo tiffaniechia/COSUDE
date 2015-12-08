@@ -1,0 +1,34 @@
+.contact-page {
+    background: url(../images/contact-mini.jpg) center center no-repeat;
+    background-size: cover;
+    opacity: 0.9;
+    height: 100%;
+}
+
+.contact-text-container {
+    height:100%;
+    width: 60%;
+    margin: 0 auto;
+    color: white;
+}
+
+.contact-text-container > .jumbotron {
+    position: absolute;
+    height: 100%;
+    width: 60%;
+    margin-top: 10%;
+}
+
+.contact-text-container > .jumbotron > h1 {
+    font-size: 4.6em;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+
+.contact-text-container > .jumbotron > p {
+    font-weight: lighter;
+}
+
+.contact-text-container > .jumbotron > .contact-email {
+    margin-top: 8%;
+}
