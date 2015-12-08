@@ -49,9 +49,15 @@ a:hover {
 .action-button {
     margin-top: 2.5em;
     font-weight: lighter;
+    background-color: hotpink;
+    border: none;
 }
 
-.action-button a{
+.action-button:hover {
+    background-color: hotpink;
+}
+
+.action-button > a{
     color: white;
     letter-spacing: 0.08em;
     text-transform: uppercase;
@@ -60,17 +66,7 @@ a:hover {
 .action-button > a:hover {
     border-bottom: transparent;
     text-decoration: none;
-    opacity: 0.8;
-}
-
-
-.btn-default {
-    background-color: hotpink;
-    border: none;
-}
-
-.btn-default:hover {
-    background-color: hotpink;
+    opacity: 0.7;
 }
 
 .navbar {
@@ -121,7 +117,6 @@ a:hover {
 .in a:hover {
     border: none;
 }
-
 
 .col-sm-7 {
     float: left;
