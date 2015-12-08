@@ -23,6 +23,10 @@ a:hover {
     height: 100%;
 }
 
+.home-page {
+    background: url(../images/background-mini.jpg) center center no-repeat;
+    background-size: cover;
+}
 
 .circle-separator {
     width: 10em;
@@ -42,15 +46,6 @@ a:hover {
     margin: 0 auto;
 }
 
-.btn-default {
-    background-color: hotpink;
-    border: none;
-}
-
-.btn-default:hover {
-    background-color: hotpink;
-}
-
 .action-button {
     margin-top: 2.5em;
     font-weight: lighter;
@@ -66,6 +61,16 @@ a:hover {
     border-bottom: transparent;
     text-decoration: none;
     opacity: 0.8;
+}
+
+
+.btn-default {
+    background-color: hotpink;
+    border: none;
+}
+
+.btn-default:hover {
+    background-color: hotpink;
 }
 
 .navbar {
@@ -117,15 +122,6 @@ a:hover {
     border: none;
 }
 
-.home-page {
-    background: url(../images/background-mini.jpg) center center no-repeat;
-    background-size: cover;
-}
-
-a.btn {
-    border-radius: 0;
-    color: grey;
-}
 
 .col-sm-7 {
     float: left;

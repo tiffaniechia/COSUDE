@@ -1,4 +1,3 @@
-
 .story-container {
     margin-top: -6em;
 }
@@ -11,8 +10,8 @@
 }
 
 .story-container > .jumbotron > p {
-    padding-left: 10% ;
-    padding-right: 10% ;
+    padding-left: 10%;
+    padding-right: 10%;
     margin: 1.2em;
     font-weight: lighter;
     font-size: 1.1em;

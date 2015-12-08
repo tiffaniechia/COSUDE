@@ -22,19 +22,20 @@
     margin-top: 1em;
 }
 
-.caption-button {
+.caption-link {
     text-transform: uppercase;
 }
 
-.caption-button > a {
+.caption-link > a {
     font-size: 0.7em;
+    border-radius: 0;
+    color: grey;
 }
 
-.caption-button > a:hover {
+.caption-link > a:hover {
     border-bottom: none;
     color: hotpink;
 }
-
 
 /*col-md-6*/
 .resources-container > .col-md-6 {
@@ -66,7 +67,7 @@
     height: 40%;
 }
 
-.resources-container > .col-md-6 > .thumbnail > .caption  > .caption-button {
+.resources-container > .col-md-6 > .thumbnail > .caption  > .caption-link {
     height: 20%;
 }
 
@@ -102,7 +103,7 @@
     height: 40%;
 }
 
-.resources-container > .col-md-4 > .thumbnail > .caption  > .caption-button {
+.resources-container > .col-md-4 > .thumbnail > .caption  > .caption-link {
     height: 20%;
 }
 
