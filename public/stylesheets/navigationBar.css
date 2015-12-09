@@ -1,0 +1,58 @@
+nav {
+    height: 3.8em;
+    background-color: white;
+}
+
+.nav {
+    height: 100%;
+}
+
+.container-fluid {
+    background-color: white;
+    height: 100%;
+    text-transform: uppercase;
+    font-size: 0.7em;
+}
+
+.navbar-brand {
+    margin-left: 0.2em;
+    font-size: 1.2em;
+    font-weight: bolder;
+}
+
+.navbar-brand:hover {
+    border-bottom: none;
+}
+
+.nav li:hover {
+    border-bottom: thick solid hotpink;
+}
+
+
+/*collapsed navigation bar*/
+
+/*hamburger menu*/
+.navbar-default .navbar-toggle:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+
+/*dropdown menu*/
+.navbar-collapse.collapsing {
+    background-color: white;
+}
+
+.navbar-collapse.collapse.in {
+    background-color: white;
+}
+
+.navbar-collapse.collapsing li:hover {
+    border: none;
+}
+
+.navbar-collapse.collapse.in li:hover {
+    border: none;
+}
