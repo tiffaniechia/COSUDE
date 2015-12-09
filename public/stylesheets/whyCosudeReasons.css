@@ -132,3 +132,14 @@
         height: 35em;
     }
 }
+
+/*screen width 420px*/
+@media (max-width: 420px) {
+    .main-reason {
+        height: 40em;
+    }
+
+    .main-reason > .jumbotron {
+        height: 40em;
+    }
+}
