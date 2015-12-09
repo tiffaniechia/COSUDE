@@ -136,10 +136,10 @@
 /*screen width 420px*/
 @media (max-width: 420px) {
     .main-reason {
-        height: 40em;
+        height: 42em;
     }
 
     .main-reason > .jumbotron {
-        height: 40em;
+        height: 42em;
     }
 }
