@@ -7,7 +7,7 @@
 .resources-container {
     width: 95%;
     margin: 0 auto;
-    padding: 2em 0;
+    padding: 2.5em 0;
     height: 100%;
 }
 
@@ -15,15 +15,21 @@
 .caption-title {
     font-size: 1.2em;
     text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 0.07em;
 }
 
 .caption-description {
     font-size: 0.9em;
     margin-top: 1em;
+    font-weight: lighter;
+    letter-spacing: 0.06em;
 }
 
 .caption-link {
     text-transform: uppercase;
+    font-weight: lighter;
+    letter-spacing: 0.03em;
 }
 
 .caption-link > a {
