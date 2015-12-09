@@ -36,6 +36,7 @@
     width: 100%;
     padding: 3em 5em;
     height: 60em;
+    margin-bottom: 0;
 }
 
 .main-reason > .jumbotron > .container > h1 {
