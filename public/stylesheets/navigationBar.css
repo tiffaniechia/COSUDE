@@ -7,7 +7,7 @@ nav {
     height: 100%;
 }
 
-.container-fluid {
+nav > .container-fluid {
     background-color: white;
     height: 100%;
     text-transform: uppercase;

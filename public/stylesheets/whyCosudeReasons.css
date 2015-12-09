@@ -1,0 +1,134 @@
+.reasons-container {
+    height:100%;
+    width: 100%;
+    text-align: left;
+    color: white;
+}
+
+.reasons-container > .col-sm-5 {
+    padding: 0;
+}
+
+.reasons-container > .col-sm-5 > .col-xs-12 {
+    width: 100%;
+    padding: 0;
+}
+
+.reasons-container > .col-sm-7 {
+    padding: 0;
+}
+
+.reasons-container > .col-sm-7 > .col-xs-6 {
+    width: 50%;
+    padding: 0;
+}
+
+
+/*main reason inner style*/
+.main-reason {
+    background: url(../images/fashion-clothes-hanger-clothes-rack-clothing.jpeg) center center no-repeat;
+    background-size: cover;
+    height: 60em;
+}
+
+.main-reason > .jumbotron {
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    padding: 3em 5em;
+    height: 60em;
+}
+
+.main-reason > .jumbotron > .container > h1 {
+    margin-bottom: 0.8em;
+}
+
+.main-reason > .jumbotron > .container > p {
+    font-weight: lighter;
+    letter-spacing: 0.03em;
+}
+
+
+/*sub reasons inner style*/
+.sub-reason-one {
+    background: url(../images/crossing-crossroad-businessman-fashion-large.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.sub-reason-two {
+    background: url(../images/hand-dust-flour-chalk.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.sub-reason-three {
+    background: url(../images/lights-street-car-vehicle.jpg) center center no-repeat;
+    background-size: cover;
+}
+
+.sub-reason-four {
+    background-color: hotpink;
+}
+
+.sub-container {
+    height:30em;
+    background-color: rgba(0,0,0,0.3);
+    width: 100%;
+    padding: 2.5em;
+}
+
+.sub-container > h1 {
+    height:30%;
+    margin-bottom: 0.8em;
+}
+
+.sub-container > p {
+    height:60%;
+    letter-spacing: 0.05em;
+}
+
+.sub-container-pink {
+    width: 100%;
+    padding: 2.5em;
+    height: 30em;
+}
+
+.sub-container-pink:hover {
+    opacity: 0.8;
+}
+
+.sub-container-pink > a > h1 {
+    height: 40%;
+    margin-bottom: 0.8em;
+}
+
+.sub-container-pink > a > p {
+    height: 50%;
+    letter-spacing: 0.05em;
+}
+
+
+/*screen width 1210px*/
+@media (max-width: 1210px) {
+    .main-reason {
+        height: 120em;
+    }
+
+    .main-reason > .jumbotron {
+        height: 120em;
+    }
+
+    .reasons-container > .col-sm-7 > .col-xs-6 {
+        width: 100%;
+    }
+}
+
+
+/*screen width 767px*/
+@media (max-width: 767px) {
+    .main-reason {
+        height: 35em;
+    }
+
+    .main-reason > .jumbotron {
+        height: 35em;
+    }
+}
