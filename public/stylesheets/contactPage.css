@@ -2,7 +2,7 @@
     background: url(../images/contact-mini.jpg) center center no-repeat;
     background-size: cover;
     opacity: 0.9;
-    height: 54em;
+    height:100%;
 }
 
 .contact-text-container {
@@ -33,4 +33,11 @@
 .contact-text-container > .jumbotron > .contact-email {
     margin-top: 2em;
     height:30%;
+}
+
+/*screen width 1050px*/
+@media (max-width: 1400px) {
+    .contact-page {
+        height: 54em;
+    }
 }
