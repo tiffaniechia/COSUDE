@@ -135,11 +135,23 @@
 
 /*screen width 420px*/
 @media (max-width: 420px) {
+    .main-reason > .jumbotron {
+        padding: 3em 2em;
+    }
+
     .main-reason {
         height: 42em;
     }
 
     .main-reason > .jumbotron {
         height: 42em;
+    }
+
+    .sub-container {
+        height: 40em;
+    }
+
+    .sub-container-pink {
+        height: 40em;
     }
 }

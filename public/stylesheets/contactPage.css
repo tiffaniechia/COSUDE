@@ -41,3 +41,10 @@
         height: 54em;
     }
 }
+
+/*screen width 375px*/
+@media (max-width: 375px) {
+    .contact-text-container {
+        width: 100%;
+    }
+}
