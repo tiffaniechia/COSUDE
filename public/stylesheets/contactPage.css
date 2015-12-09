@@ -35,7 +35,7 @@
     height:30%;
 }
 
-/*screen width 1050px*/
+/*screen width 1400px*/
 @media (max-width: 1400px) {
     .contact-page {
         height: 54em;
