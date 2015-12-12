@@ -31,7 +31,7 @@
 }
 
 .main-reason > .jumbotron {
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.3);
     width: 100%;
     padding: 3em 5em;
     height: 60em;
@@ -45,6 +45,7 @@
 .main-reason > .jumbotron > .container > p {
     font-weight: lighter;
     letter-spacing: 0.03em;
+    text-shadow: 0.5px 1px #657382;
 }
 
 
@@ -70,7 +71,7 @@
 
 .sub-container {
     height:30em;
-    background-color: rgba(0,0,0,0.4);
+    background-color: rgba(0,0,0,0.3);
     width: 100%;
     padding: 3em;
 }
@@ -83,6 +84,7 @@
 .sub-container > p {
     height:60%;
     letter-spacing: 0.05em;
+    text-shadow: 0.5px 1px #657382;
 }
 
 .sub-container-pink {

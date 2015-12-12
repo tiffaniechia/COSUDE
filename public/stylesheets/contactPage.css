@@ -23,16 +23,19 @@
     font-weight: lighter;
     height:20%;
     margin-bottom: 0.5em;
+    text-shadow: 0.5px 1px #657382;
 }
 
 .contact-text-container > .jumbotron > p {
     font-weight: lighter;
     height:50%;
+    text-shadow: 0.5px 1px #657382;
 }
 
 .contact-text-container > .jumbotron > .contact-email {
     margin-top: 2em;
     height:30%;
+    text-shadow: 0.5px 1px #657382;
 }
 
 /*screen width 1400px*/
